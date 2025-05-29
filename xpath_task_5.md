@@ -1,7 +1,7 @@
-# Go to the Shop page, write the XPath for quantity input of Oranges, Add to cart button for Oranges, and add to wish list for Oranges
+## Go to the Shop page, write the XPath for quantity input of Oranges, Add to cart button for Oranges, and add to wish list for Oranges
 
 
-## XPath Selectors for Quantity Input (Oranges)
+### XPath Selectors for Quantity Input (Oranges)
 
 ```xpath
 //input[@type="number" and @class="quantity"]
@@ -10,9 +10,9 @@
 
 
 
-# Add to Cart
+### Add to Cart
 //div[contains(., "Orange")]//button[contains(text(), "Add to Cart")]
 
 
-# Add to Wish List Button for Oranges
+### Add to Wish List Button for Oranges
 //div[contains(., "Orange")]//button[./*[name()="svg"]]
