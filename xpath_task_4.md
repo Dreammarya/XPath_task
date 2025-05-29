@@ -9,7 +9,6 @@ This document contains XPath selectors for the Age Verification modal elements o
 //div[@class="modal-content"]//button[text()="Confirm"]
 //div[h2[text()="Age Verification"]]//button[text()="Confirm"]
 ```
-
 ---
 
 ##  **Date of Birth Input Field**
