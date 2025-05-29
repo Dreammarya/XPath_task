@@ -11,8 +11,10 @@
 
 
 ### Add to Cart
+```xpath
 //div[contains(., "Orange")]//button[contains(text(), "Add to Cart")]
 
 
 ### Add to Wish List Button for Oranges
+```xpath
 //div[contains(., "Orange")]//button[./*[name()="svg"]]
